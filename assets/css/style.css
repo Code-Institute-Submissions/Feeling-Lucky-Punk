@@ -1,0 +1,87 @@
+
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   max-width: 2000px;
+   margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(165, 165, 42);
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+  cursor: pointer;
+  color: rgb(165, 165, 42);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+
+/* ........................................ Positioning */
+
+.opening {
+  height: 100vw;
+   margin-top: auto;
+  margin-bottom: auto;
+   background: url(../imgs/opening_img.jpg) no-repeat center center fixed;
+ background-size: cover;
+}
+
+.heading{
+    padding-top: 8.125rem;
+    padding-bottom: 0.8rem;
+}
+
+
+/* .flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+} */
+
+/* ........................................ Buttons */
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0rem;
+  width: 17rem;
+  text-align: center;
+  border: 0.2rem solid rgb(165, 165, 42);
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(165, 165, 42);
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(165, 165, 42, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+

@@ -1,45 +1,128 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Movie Quote Guessing Game
 
-Welcome USER_NAME,
+# UX
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## User Stories
+As a user I would like:
 
-## Gitpod Reminders
+* To play a fun interactive guessing game.
+* To be both challenged and entertained.
+* To come across both familiar and not so familliar movie quotes.
+* To be reminded of some classic films and maybe learn of some unknown films.
+* To be kept engaged whie playing the game.
+* To be able to view my score as i play.
+* To be visibly notified if i get the answer right or wrong.
+* To contact the games creator to suggest my own movie quote ideas.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Strategy
 
-A blue button should appear to click: *Make Public*,
+## Scope
 
-Another blue button should appear to click: *Open Browser*.
+## Structure
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Skeleton
 
-A blue button should appear to click: *Make Public*,
+## Design
+  **Wire Frames**
+  
+ 
 
-Another blue button should appear to click: *Open Browser*.
+**Colours**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Typography**
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Backgrounds**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+# Features
+## Exsisting Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Features Still to Be Implemented
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Technologies Used
+## Languages
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript]()
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Frameworks and Programs
+* [Bootstrap 4.5](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+> Used to get the overall layout of the Webpage.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiA48j9BRC-ARIsAMQu3WSc14tIkeDZUlWDIVOa-Acbyn1s5XvsJJ6CnWplwD7_WPcgk-C4cTgaAsaNEALw_wcB)
+> I used Balsamiq to make my wireframes.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* [GitHub](https://github.com/)
+> GitHub was used to push content to the repository.
 
---------
+*  [TinyPNG](https://tinypng.com/)
+> TinyPNG was used to compress my images and files.
 
-Happy coding!
+*  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+> CSS code was checked using CSS W3C CSS Validator.
+
+* [Online Beautifier](https://beautifier.io/)
+> Online Beautifier was used to beautify my HTML code.
+# Testing
+As the webpage was being built Chrome developer tools were used to ensure that the code was working smoothly. Each section was then tested again every time a new feature was added.
+
+Pre-deployment I checked that the webpage met all the user needs previously stated.
+
+The webpage was tested on multiple viewports each time a section was added or updated to make sure everything was working correctly.
+Post-deployment the webpage was tested across a number of devices to ensure it remained responsive. Some of the devices that were tested: Iphone 5, Iphone 11, Samsung A5, Samsung S8, Ipad pro and a Toshiba laptop.
+
+Post-deployment the webpage was opened and tested on three different search engines
+
+**Bugs**
+
+
+* [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
+>W3C Markup Validator was used to check the HTML code. Any bugs that came up were due to outdated styles in the iframe element. These were simply removed and then resolved by updating the CSS for the iframe element.
+
+* Viewport Testing
+> The webpage was opened on a number of different screen sizes to ensure it worked on all viewports. 
+
+## Functionality Test
+
+## Browser Compatibility Test
+
+
+# Deployment
+The site was developed using [Gitpod IDE](https://gitpod.io/), the code was then added and comitted to git and pushed to my Github repository.
+
+The site was deployed to GitHub pages. See below for instructions.
+
+* Log on to GitHub repository.
+* Click on settings.
+* Scroll to GitHub pages.
+* Change your source to Branch - Master.
+* Hit save.
+* Scroll up to find and retrieve the link to your deployed website.
+
+## How to clone this project
+## With Gitpod
+* Create a Gitpod account and install Gitpod Browser extension for chrome.
+* Log into your gitpod account.
+* Go to [Github repository](https://github.com/LiamGaff/Liam-Gaffney-Actor) and click on the green "Gitpod" button.
+* This will open a new Gitpod workspace created from the code in the github repoitory where you can work.
+
+## Local IDE
+* Go to my Github repository [here](https://github.com/LiamGaff/Liam-Gaffney-Actor).
+* Under the repository name click on "clone or download"
+* In the clone with HTTPs section copy the clone URL for the repository.
+* In your local IDE open the terminal and change you directory to where you want the clone to be made.
+* In the terminal type _git clone_ and then paste the repoitory URL.
+* Press enter and a clone will be created.
+
+# Credits
+
+## Code
+* The interactive structure and layout of the code  https://getbootstrap.com/docs/4.5/layout/overview/
+*
+* Resources such as W3schools and Stackoverflow were used to come up with solutions to various problems I encountered
+* Some ideas for the code (such as the social media links) were taken from mini projects done through out the course. 
+
+## Acknowledgements
+* I would also like to credit and thank my mentors Brian Macharia 
