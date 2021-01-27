@@ -1,15 +1,18 @@
 
 
 body {
-   font-family: Arial, Helvetica, sans-serif;
-   max-width: 2000px;
-   margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 2000px;
+    margin: 0;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
     box-sizing: border-box;
     color: rgb(165, 165, 42);
+    /* height: 100vh; */
 }
+
+/* ........................................ Text-Style */
 
 h1 {
     font-size: 4rem;
@@ -22,46 +25,42 @@ a{
 }
 
 a:hover{
-  cursor: pointer;
-  color: rgb(165, 165, 42);
-  transform: translateY(-0.1rem);
-  transition: transform 150ms;
+    cursor: pointer;
+    color: rgb(165, 165, 42);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
 }
 
+.end-quote {
+    color: antiquewhite;
+    font-weight: 300;
+}
+ .red{
+    color: red;
+    font-weight: 500;
+    font-size: 1.5rem;
+ }
+
+.blue{
+    color: blue;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
 
 /* ........................................ Positioning */
 
 .opening {
-  height: 100vw;
-   margin-top: auto;
-  margin-bottom: auto;
-   background: url(../imgs/opening_img.jpg) no-repeat center center fixed;
- background-size: cover;
+    height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: url(../imgs/opening_img.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .heading{
     padding-top: 8.125rem;
-    padding-bottom: 0.8rem;
+    padding-bottom: 1rem;
 }
-
-
-/* .flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-center {
-  justify-content: center;
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.text-center {
-  text-align: center;
-} */
 
 /* ........................................ Buttons */
 
@@ -85,3 +84,17 @@ a:hover{
 }
 
 
+/* ........................................ Media Queries */
+
+@media only screen and (max-width: 400px) {
+    .heading {
+        padding-top: 4rem;
+    }
+}
+
+
+@media only screen and (min-height: 1300px) {
+    .heading {
+        padding-top: 20rem;
+    }
+}
