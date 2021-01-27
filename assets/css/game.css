@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 2000px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(165, 165, 42);
+    /* height: 100vh; */
+}
+/* ........................................ Game Structure*/
+
+.movie-quote {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.movie-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 60%;
+  font-size: 1.3rem;
+  border: 0.1rem solid rgb(165, 165, 42, 0.5);
+  border-radius: 35px;
+  background-color: transparent;
+  padding-left: 0;
+}
+.movie-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(165, 165, 42, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+.movie-prefix {
+  padding: 0.5rem 1rem;
+  background-color: rgba(165, 165, 42);
+  color: white;
+  border-radius: 50px;
+  height: 3rem;
+  width: 3rem;
+}
+
+ p {
+    margin-bottom: 0;
+}
+
+.movie-text {
+  padding: 1.2rem;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ........................................ Background */
+
+.bg-game {
+    height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: url(../imgs/game_img.jpg) no-repeat center center fixed;
+    background-size: cover;
+}

@@ -33,7 +33,8 @@ a:hover{
 
 .end-quote {
     color: antiquewhite;
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
  .red{
     color: red;
@@ -49,7 +50,7 @@ a:hover{
 
 /* ........................................ Positioning */
 
-.opening {
+.bg-opening {
     height: 100vh;
     margin-top: auto;
     margin-bottom: auto;
