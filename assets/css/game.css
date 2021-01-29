@@ -7,13 +7,26 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: rgb(165, 165, 42);
-    /* height: 100vh; */
+    height: 125vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: linear-gradient(
+      rgba(255, 0, 0, 0.9), 
+      rgba(255, 0, 0, 0.5)
+    ),
+    url(../imgs/game_img3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /* border: 4px solid rgb(165, 165, 42); */
+}
+h2 {
+    font-weight: 500;
+    font-size: 3rem;
 }
 /* ........................................ Game Structure*/
 
 .movie-quote {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .movie-container {
@@ -23,7 +36,7 @@ body {
   font-size: 1.3rem;
   border: 0.1rem solid rgb(165, 165, 42, 0.5);
   border-radius: 35px;
-  background-color: transparent;
+  background-color: whitesmoke;
   padding-left: 0;
 }
 .movie-container:hover {
@@ -51,12 +64,33 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.section-game {
+margin-top: 1rem;
+}
+
 /* ........................................ Background */
 
-.bg-game {
-    height: 100vh;
-    margin-top: auto;
-    margin-bottom: auto;
-    background: url(../imgs/game_img.jpg) no-repeat center center fixed;
-    background-size: cover;
+
+  
+
+/* ........................................ Media Queries */
+
+ @media only screen and (min-width: 450px) {
+    .section-game {
+        margin-top: 8rem;
+    }
+
+    body {
+        height: 100vh;
+    }
+}
+
+ @media only screen and (max-height: 400px){
+    .section-game {
+        margin-top: 2rem;
+    }
+
+      body {
+        height: 110vh;
+    }
 }

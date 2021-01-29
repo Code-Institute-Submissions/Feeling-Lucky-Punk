@@ -24,12 +24,16 @@ As a user I would like:
 ## Skeleton
 
 ## Design
-  **Wire Frames**
+**Wire Frames**
   
  
 
 **Colours**
+* I used a blend of dark yeallow/gold and red to coinside with the vintage theatre design that I was attempting to emulate.
 
+* on the end page when you finish the game some of the text is in red and blue. This was chosen to match with the quote from the classic film "The Matrix" that is presented to you at the bottom of the end page.
+
+* Simple black and white colours were used through out te rest of the app so as to make all the content clear and readable for all uses.
 **Typography**
 
 
