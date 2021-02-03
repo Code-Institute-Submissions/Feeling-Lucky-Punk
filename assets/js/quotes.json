@@ -1,0 +1,82 @@
+[
+  {
+    "Quote": "I'm going to make him an offer he can't refuse",
+    "movie1": "The Godfather",
+    "movie2": "Finding Nemo",
+    "movie3": "E.T. The Extra-Terrestrial",
+    "movie4": "Casablanca",
+    "answer": 1
+  },
+  {
+    "Quote": "You talking to me?",
+    "movie1": "Pineapple Express",
+    "movie2": "Taxi Driver",
+    "movie3": "The Matrix",
+    "movie4": "Jarhead",
+    "answer": 2
+  },
+  {
+    "Quote": "I'll be back",
+    "movie1": "Green Mile",
+    "movie2": "The Lion King",
+    "movie3": "The Terminator",
+    "movie4": "Wall Street",
+    "answer": 3
+  },
+  {
+    "Quote": "I'll be back",
+    "movie1": "Green Mile",
+    "movie2": "The Lion King",
+    "movie3": "The Terminator",
+    "movie4": "Wall Street",
+    "answer": 4
+  },
+  {
+    "Quote": "“It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.”",
+    "movie1": "Pride and Prejudice",
+    "movie2": "Wolf Of Wall Street",
+    "movie3": "Green Street",
+    "movie4": "In Time",
+    "answer": 1
+  },
+  {
+    "Quote": "Why So Serious",
+    "movie1": "Spiderman Homecoming",
+    "movie2": "The Dark Knight",
+    "movie3": "The Terminator 2",
+    "movie4": "Avengers",
+    "answer": 2
+  },
+  {
+    "Quote": "What's the most you ever lost on a coin toss?",
+    "movie1": "Blade Runner",
+    "movie2": "Batman",
+    "movie3": "No Country For Old Men",
+    "movie4": "Chicken Little",
+    "answer": 3
+  },
+  {
+    "Quote": "Just keep swimming",
+    "movie1": "Bad Santa",
+    "movie2": "Big Short",
+    "movie3": "Blade 2",
+    "movie4": "Finding Nemo",
+    "answer": 4
+  },
+  {
+    "Quote": "I feel like a slice of butter melting over a big old pile of flapjacks",
+    "movie1": "Pineapple Express",
+    "movie2": "This Is The End",
+    "movie3": "Step Brothers",
+    "movie4": "Superbad",
+    "answer": 1
+  },
+{
+    "Quote": "One name, who are you, Seal?",
+    "movie1": "Titanic",
+    "movie2": "Superbad",
+    "movie3": "Old School",
+    "movie4": "21 Jumpstreet",
+    "answer": 2
+  }
+]
