@@ -1,4 +1,6 @@
 # Movie Quote Guessing Game
+I am designing this web application as part of my second Milestone project for Code Institutes diploma in software development course.
+The application i am designing is a movie quote guessing game. As a fellow movie nerd I aim to provide a fun and interactive game that all movie lovers will enjoy.
 
 # UX
 
@@ -16,11 +18,13 @@ As a user I would like:
 
 
 ## Strategy
+As previously stated this movie quote guessing game is designed to be a fun and interactive experience for all users. The target audiance is movie lovers and anyone interested in having a bit of fun.
+The quotes vary in genre so any user can find some recogniseable quotes from classic films through out the game.
 
 ## Scope
-
+The game is fairly simple allowing any user to
 ## Structure
-
+The structure of the webpage allows the user easy navigation through out the webpgae. With limited options on both the landing page and the end page the user can easily start the game, return to the home page, play again or visit the movie suggestion form page.
 ## Skeleton
 
 ## Design
