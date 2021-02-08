@@ -1,8 +1,8 @@
 // Code came from Build a Quiz App by James Quick on Youtube 
 
 // Setting up constants for questions and answers
-const quote = document.getElementById("quote");
-const movies = Array.from(document.getElementsByClassName("movie-text"));
+const quote = document.getElementById('quote');
+const movies = Array.from(document.getElementsByClassName('movie-text'));
 
 // Set up variables for game
 
@@ -70,9 +70,18 @@ movies.forEach((movie) => {
 
    acceptingAnswers = false;
    const selectedMovie = e.target;
-   const selectedAnswer = selectedMovie.dataset["number"];
+   const selectedAnswer = selectedMovie.dataset['number'];
 
-   getNewQuote();
+    const classToApply =
+            selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
+        // console.log(classToApply)
+
+    selectedMovie.parentElement.classList.add(classToApply);
+
+    setTimeout( () => {
+        selectedMovie.parentElement.classList.remove(classToApply);
+        getNewQuote();
+    }, 1000)
   });
 });
 

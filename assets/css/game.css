@@ -73,4 +73,14 @@ h2 {
   width: 100%;
 }
 
+/* ........................................ Button Answer Styling*/
+
+.correct {
+  background-color: green;
+}
+
+.incorrect {
+ background-color: red;
+}
+
 /* ........................................ Media Queries*/
