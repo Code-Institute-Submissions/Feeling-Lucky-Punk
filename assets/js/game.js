@@ -48,7 +48,7 @@ function getNewQuote() {
     if(availableQuotes.length == 0 || quoteCounter >= max_quotes){
         localStorage.setItem('mostRecentScore', score);
         // Return to home page
-        return window.location.assign("../end.html");
+        return window.location.assign("end.html");
     }
 
      quoteCounter++;
