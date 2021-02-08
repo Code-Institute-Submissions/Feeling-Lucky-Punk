@@ -31,7 +31,7 @@ h2 {
 }
 
 .movie-quote {
-    margin-top: 2rem;
+    /* margin-top: rem; */
     padding-bottom: 0.5rem;
 }
 
@@ -83,4 +83,21 @@ h2 {
  background-color: red;
 }
 
+/* ........................................ Score & Question Counter*/
+
+#hud {
+    padding-top: 0.5rem;
+    justify-content: space-around;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.hud-main-text {
+    color: whitesmoke;
+}
+
+.hud-prefix {
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
 /* ........................................ Media Queries*/

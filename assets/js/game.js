@@ -1,8 +1,10 @@
-// Code came from Build a Quiz App by James Quick on Youtube 
+// Code came from Build a Quiz App by James Quick on Youtube tutorial
 
 // Setting up constants for questions and answers
 const quote = document.getElementById('quote');
 const movies = Array.from(document.getElementsByClassName('movie-text'));
+const quoteCounterText = document.getElementById('quoteCounter');
+const scoreText = document.getElementById('score');
 
 // Set up variables for game
 
@@ -48,6 +50,8 @@ function getNewQuote() {
     }
 
      quoteCounter++;
+     quoteCounterText.innerText = quoteCounter + "/" + max_quotes;
+
      const quoteIndex = Math.floor(Math.random() * availableQuotes.length);
      currentQuote = availableQuotes[quoteIndex];
      quote.innerText = `${""}${currentQuote.Quote}${""}`;
@@ -73,10 +77,14 @@ movies.forEach((movie) => {
    const selectedAnswer = selectedMovie.dataset['number'];
 
     const classToApply =
-            selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
+        selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
         // console.log(classToApply)
 
-    selectedMovie.parentElement.classList.add(classToApply);
+        if(classToApply === 'correct'){
+            incrementScore(correct_bonus);
+        }
+
+        selectedMovie.parentElement.classList.add(classToApply);
 
     setTimeout( () => {
         selectedMovie.parentElement.classList.remove(classToApply);
@@ -85,3 +93,7 @@ movies.forEach((movie) => {
   });
 });
 
+function incrementScore(num){
+    score +=num;
+    scoreText.innerText = score;
+} 
