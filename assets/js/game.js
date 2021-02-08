@@ -46,7 +46,9 @@ function startGame() {
 function getNewQuote() {
 
     if(availableQuotes.length == 0 || quoteCounter >= max_quotes){
-        return window.location.assign("/end.html");
+        localStorage.setItem('mostRecentScore', score);
+        // Return to home page
+        return window.location.assign("../end.html");
     }
 
      quoteCounter++;

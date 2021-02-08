@@ -9,7 +9,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: rgb(165, 165, 42);
-    /* height: 100vh; */
+    height: 100%;
 }
 
 /* ........................................ Text-Style */
@@ -52,14 +52,13 @@ a:hover{
 
 .bg-opening {
     height: 100vh;
-    margin-top: auto;
-    margin-bottom: auto;
-    background: url(../imgs/opening_img.jpg) no-repeat center center fixed;
+    background: url(../imgs/opening_img.jpg) no-repeat center center ;
     background-size: cover;
+    overflow: auto;
 }
 
 .heading{
-    padding-top: 8.125rem;
+    padding-top: 1.125rem;
     padding-bottom: 1rem;
 }
 
@@ -84,19 +83,47 @@ a:hover{
   transition: transform 150ms;
 }
 
+/* ........................................ Final Score */
+
+#finalScore {
+   margin-bottom: 0;
+   padding-top: 0.5rem;
+   font-size: 3rem;
+   text-decoration: underline;
+   color: antiquewhite;
+}
+
+/* Code came from W3Schools */
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #bbb010, 0 0 40px #bbb010, 0 0 50px #bbb010, 0 0 60px #bbb010, 0 0 70px #bbb010;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #d9e06f, 0 0 40px #d9e06f, 0 0 50px #d9e06f, 0 0 60px #d9e06f, 0 0 70px #d9e06f, 0 0 80px #d9e06f;
+  }
+}
 
 /* ........................................ Media Queries */
 
 
 @media only screen and (min-width: 400px) {
-    .heading {
+    .home-spacing {
         padding-top: 4rem;
     }
 }
 
 
 @media only screen and (min-height: 1300px) {
-    .heading {
+    .home-spacing {
         padding-top: 20rem;
     }
 }
