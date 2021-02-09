@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feeling Lucky Punk-Form</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_pdGoaKmyd7lfRUQGiiU8k");
+      emailjs.send("service_iyowll8","Movie-Quote", {name: "Liam", notes: "Quotes.."});
+   })();
+</script>
+</head>
+<body>
+    <section class="container-fluid bg-opening">
+        <div class="row justify-content-center no-gutters">
+            <div class="col-md-8 d-flex justify-content-center align-self-center text-center">
+                <h1 class="heading "><i>Suggest Quote</i></h1>
+            </div>   
+        </div>   
+        <div class="row justify-content-center no-gutters">
+            <div class="col-12 col-sm-8 col-md-6">
+                <form onsubmit="return sendMail(this);">
+                    <label for="name" class="form-text">Full Name:</label>
+                    <input id="name" name="name" type="text" placeholder="John Doe" class="suggestion-text-input" required>
+                    <label for="emailadress" class="form-text">Email:</label>
+                    <input id="emailadress" name="emailadress" type="emailadress" placeholder="john5@gmail.com" class="suggestion-text-input" required>
+                    <label for="movie" class="form-text">Movie:</label>
+                    <textarea id="movie" name="movie" rows="1" placeholder="Spider-Man" class="suggestion-text-input" required></textarea>
+                    <label for="qoute" class="form-text">Quote:</label>
+                    <textarea id="quote" name="quote" rows="3" placeholder="'We are who we choose to be. Now CHOOSE!'" class="suggestion-text-input" required></textarea>
+                    <input type="submit" class="suggestion-submit-input col-6">
+                    <input type="button" class="suggestion-submit-input col-6" onclick="window.location.href = 'index.html'" value="Home">
+                </form>
+                
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="assets/js/email.js"></script>
+</body>
+</html>

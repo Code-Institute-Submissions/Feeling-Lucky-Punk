@@ -86,11 +86,22 @@ a:hover{
 /* ........................................ Final Score */
 
 #finalScore {
+    margin-top: 1rem;
    margin-bottom: 0;
-   padding-top: 0.5rem;
+   padding-top: 0.6rem;
+   padding-bottom: 0.95rem;
+   padding-left: 0.9rem;
+   padding-right: 0.9rem;
    font-size: 3rem;
    text-decoration: underline;
-   color: antiquewhite;
+   color: rgba(197, 23, 0, 0.89);
+   /* Border came from developer.mozilla.org */
+  border-image-slice:42 42 42 42 fill;
+  border-image-width:50px 50px 50px 50px;
+  border-image-outset:20px 20px 20px 20px;
+  border-image-repeat:round round;
+  border-image-source:url("https://mdn.mozillademos.org/files/6017/border-image-6.svg");
+
 }
 
 /* Code came from W3Schools */
@@ -112,6 +123,28 @@ a:hover{
   }
 }
 
+/* ........................................ Media Queries */
+
+.suggestion-text-input{
+    display: block;
+    width: 90%;
+    padding: .375rem .75rem;
+    margin-left: 15px;
+    border: solid 3px rgb(165, 165, 42);
+    border-radius: 10px;
+}
+
+.suggestion-submit-input{
+    font-size: 1.2rem;
+    margin: auto;
+    display: block;
+    color: #fffaf0;
+    background-color: rgb(165, 165, 42);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
 /* ........................................ Media Queries */
 
 
