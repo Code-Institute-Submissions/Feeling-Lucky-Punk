@@ -56,7 +56,7 @@ function getNewQuote() {
 
      const quoteIndex = Math.floor(Math.random() * availableQuotes.length);
      currentQuote = availableQuotes[quoteIndex];
-     quote.innerText = `${""}${currentQuote.Quote}${""}`;
+     quote.innerText = `${"“"}${currentQuote.Quote}${"“"}`;
      
      
      movies.forEach((movie) => {
