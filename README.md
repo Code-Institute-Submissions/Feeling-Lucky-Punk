@@ -19,41 +19,61 @@ As a user I would like:
 
 ## Strategy
 As previously stated this movie quote guessing game is designed to be a fun and interactive experience for all users. The target audiance is movie lovers and anyone interested in having a bit of fun.
-The quotes vary in genre so any user can find some recogniseable quotes from classic films through out the game.
+The quotes vary in genre so any user can find some recogniseable quotes from classic films and amybe a few quotes they wouldnt be familliar with.
 
 ## Scope
-The game is fairly simple allowing any user to
+The game is fairly staight forward allowing for a wide variation in users. 
+
 ## Structure
-The structure of the webpage allows the user easy navigation through out the webpgae. With limited options on both the landing page and the end page the user can easily start the game, return to the home page, play again or visit the movie suggestion form page.
+In order to really enjoy the the game easy navigation and flow of content was essential. Moving from page to page is done at the click of a button. There are only four main pages and none of them 
+are overpopulated with uneccessary content. The home page provides tou with two options of playing the game or visitig the quote suggestion form and the the end game page allows you to play again or return to the home page.. With limited options on both the landing page and the end page the user can easily start the game, return to the home page, play again or visit the movie suggestion form page.
+The simplicitic nature of the game allows the user to focus on the main objective of the web application, having fun!
+
 ## Skeleton
+The theme of the game was aimed towards the style of  an old fashioned theatre. There is something inviting and nostalgig about the feel and colours associated with this theme. 
+In order to achieve this effect I used specific colours, backgrounds and fonts that fell inline with the theme. These will be discussed further in the design section.
 
 ## Design
 **Wire Frames**
-  
+ The webpage was designed using Balsamiq to crate some basic wireframes(Link below) 
  
 
 **Colours**
-* I used a blend of dark yeallow/gold and red to coinside with the vintage theatre design that I was attempting to emulate.
+* I used a blend of dark yeallow/gold(rgb(165, 165, 42)) and red(rgba(197, 23, 0, 0.89)) to coinside with the vintage theatre design that I was attempting to emulate.
 
 * on the end page when you finish the game some of the text is in red and blue. This was chosen to match with the quote from the classic film "The Matrix" that is presented to you at the bottom of the end page.
 
 * Simple black and white colours were used through out te rest of the app so as to make all the content clear and readable for all uses.
-**Typography**
 
+**Typography**
+* The font I chose for the all the headings of the web application was 'Lobster', cursive. I really liked this font as it made the headings really stand out and gave that old fashioned theatre feel that I was aiming for.
+
+* For the quotes them selves I chose something a little different, 'Architects Daughter', cursive. I felt this gave a nice hand written effect and was a fun way to present the quotes.
+
+* The rest of the text I used 'Lato', sans-serif. This text was used mostly in paces where users needed to make a choice so I felt this text was clean and readable for all users.
 
 **Backgrounds**
+* I used the same background for the home, end and from page. The background in use is an image of theatre with the curtains drawn. I felt this was a nice effect, as if the user was about to enter a show. The image was sourced from [Clipart Library](http://clipart-library.com/theatre-curtains.html);
 
-
+* The background for the main game is an image of an old movie projector [Stockvault](https://www.stockvault.net/free-photos/movies) with red clour shaded over it in CSS. I fel the image looked great and the red shading kept inline with the desired theme.
 # Features
 ## Exsisting Features
+* Button links to navigate between all four pages of the web application.
+* Question count to keep track of what question the user is on.
+* Score board to keep track of what score the user is on.
+* Four possible answers for the user to choose from.
+* A score board on the end page for the users final score.
+* A form where the user can suggest movie quotes that the would like to see in the game.
 
 ## Features Still to Be Implemented
+* A page listing all the movies mentioned in the game with some info on them and links to their IMBD page.
+
 
 # Technologies Used
 ## Languages
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
-* [JavaScript]()
+* [JavaScript](https://javascript.info/)
 
 ## Frameworks and Programs
 * [Bootstrap 4.5](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
@@ -127,10 +147,10 @@ The site was deployed to GitHub pages. See below for instructions.
 # Credits
 
 ## Code
+* Build a Quiz App by James Quick on Youtube was a major asset to me in building the app. I followed along and learned as i built the game using his guidance.
 * The interactive structure and layout of the code  https://getbootstrap.com/docs/4.5/layout/overview/
-*
 * Resources such as W3schools and Stackoverflow were used to come up with solutions to various problems I encountered
-* Some ideas for the code (such as the social media links) were taken from mini projects done through out the course. 
+* Some ideas for the code (Such as the form page) were taken from mini projects done through out the course. 
 
 ## Acknowledgements
-* I would also like to credit and thank my mentors Brian Macharia 
+* I would also like to credit and thank my mentor Brian Macharia for all his help once again. I would have been lost without his guidance so far through out this course. 

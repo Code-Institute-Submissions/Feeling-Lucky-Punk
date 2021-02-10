@@ -6,15 +6,13 @@
     <title>Feeling Lucky Punk-Form</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-
-      <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-</script>
+<!-- email.js service was used for this code. -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <script type="text/javascript">
-   (function(){
-      emailjs.init("user_pdGoaKmyd7lfRUQGiiU8k");
-      emailjs.send("service_iyowll8","Movie-Quote", {name: "Liam", notes: "Quotes.."});
-   })();
+(function() {
+emailjs.init("user_pdGoaKmyd7lfRUQGiiU8k");
+emailjs.send("service_iyowll8","Movie-Quote",{name:"Liam", notes:"Movie quote..."});
+})();
 </script>
 </head>
 <body>
@@ -26,7 +24,7 @@
         </div>   
         <div class="row justify-content-center no-gutters">
             <div class="col-12 col-sm-8 col-md-6">
-                <form onsubmit="return sendMail(this);">
+                <form id="quote-form" onsubmit="return sendMail(this);">
                     <label for="name" class="form-text">Full Name:</label>
                     <input id="name" name="name" type="text" placeholder="John Doe" class="suggestion-text-input" required>
                     <label for="emailadress" class="form-text">Email:</label>
