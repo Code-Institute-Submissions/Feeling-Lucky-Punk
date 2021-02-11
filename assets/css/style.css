@@ -20,12 +20,12 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-a:hover{
+a:hover {
     cursor: pointer;
     color: rgb(165, 165, 42);
     transform: translateY(-0.1rem);
@@ -37,13 +37,14 @@ a:hover{
     font-weight: 500;
     font-size: 1.5rem;
 }
- .red{
+
+.red {
     color: red;
     font-weight: 500;
     font-size: 1.5rem;
- }
+}
 
-.blue{
+.blue {
     color: blue;
     font-weight: 500;
     font-size: 1.5rem;
@@ -53,12 +54,12 @@ a:hover{
 
 .bg-opening {
     height: 100vh;
-    background: url(../imgs/opening_img.jpg) no-repeat center center ;
+    background: url(../imgs/opening_img.jpg) no-repeat center center;
     background-size: cover;
     overflow: auto;
 }
 
-.heading{
+.heading {
     padding-top: 1.125rem;
     padding-bottom: 1rem;
 }
@@ -66,62 +67,63 @@ a:hover{
 /* ........................................ Buttons */
 
 .btn {
-  font-size: 1.8rem;
-  padding: 1rem 0rem;
-  width: 17rem;
-  text-align: center;
-  border: 0.2rem solid rgb(165, 165, 42);
-  margin-bottom: 1rem;
-  text-decoration: none;
-  color: rgb(165, 165, 42);
-  background-color: white;
+    font-size: 1.8rem;
+    padding: 1rem 0rem;
+    width: 17rem;
+    text-align: center;
+    border: 0.2rem solid rgb(165, 165, 42);
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(165, 165, 42);
+    background-color: white;
 }
 
 .btn:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(165, 165, 42, 0.5);
-  transform: translateY(-0.1rem);
-  transition: transform 150ms;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(165, 165, 42, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
 }
 
 /* ........................................ Final Score */
 
 #finalScore {
     margin-top: 1.2rem;
-   margin-bottom: 0;
-   padding-top: 0.6rem;
-   padding-bottom: 0.95rem;
-   padding-left: 0.9rem;
-   padding-right: 0.9rem;
-   font-size: 3rem;
-   text-decoration: underline;
-   color: rgba(197, 23, 0, 0.89);
-   /* Border came from developer.mozilla.org */
-  border-image-slice:42 42 42 42 fill;
-  border-image-width:50px 50px 50px 50px;
-  border-image-outset:18px 20px 22px 20px;
-  border-image-repeat:round round;
-  border-image-source:url("https://mdn.mozillademos.org/files/6017/border-image-6.svg");
+    margin-bottom: 0;
+    padding-top: 0.6rem;
+    padding-bottom: 0.95rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: rgba(197, 23, 0, 0.89);
+    /* Border came from developer.mozilla.org */
+    border-image-slice: 42 42 42 42 fill;
+    border-image-width: 50px 50px 50px 50px;
+    border-image-outset: 18px 20px 22px 20px;
+    border-image-repeat: round round;
+    border-image-source: url("https://mdn.mozillademos.org/files/6017/border-image-6.svg");
 
 }
 
 /* Code came from W3Schools */
 .glow {
-  font-size: 80px;
-  color: #fff;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #bbb010, 0 0 40px #bbb010, 0 0 50px #bbb010, 0 0 60px #bbb010, 0 0 70px #bbb010;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #d9e06f, 0 0 40px #d9e06f, 0 0 50px #d9e06f, 0 0 60px #d9e06f, 0 0 70px #d9e06f, 0 0 80px #d9e06f;
-  }
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #bbb010, 0 0 40px #bbb010, 0 0 50px #bbb010, 0 0 60px #bbb010, 0 0 70px #bbb010;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #d9e06f, 0 0 40px #d9e06f, 0 0 50px #d9e06f, 0 0 60px #d9e06f, 0 0 70px #d9e06f, 0 0 80px #d9e06f;
+    }
 }
 
 /* ........................................ Form */
@@ -135,7 +137,7 @@ a:hover{
     font-size: 1.2rem;
 }
 
-.suggestion-text-input{
+.suggestion-text-input {
     display: block;
     width: 90%;
     padding: .375rem .75rem;
@@ -144,7 +146,7 @@ a:hover{
     border-radius: 10px;
 }
 
-.suggestion-submit-input{
+.suggestion-submit-input {
     font-size: 1.2rem;
     margin: auto;
     display: block;
@@ -157,10 +159,10 @@ a:hover{
 }
 
 .suggestion-submit-input:hover {
-     cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(165, 165, 42, 0.5);
-  transform: translateY(-0.1rem);
-  transition: transform 150ms;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(165, 165, 42, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
 }
 
 /* ........................................ Media Queries */
@@ -172,9 +174,20 @@ a:hover{
     }
 }
 
-
 @media only screen and (min-height: 1300px) {
     .home-spacing {
-        padding-top: 20rem;
+        padding-top: 16rem;
+    }
+}
+
+@media only screen and (min-width: 370px) {
+    .end-spacing {
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (min-height: 1300px) {
+    .end-spacing {
+        padding-top: 16rem;
     }
 }

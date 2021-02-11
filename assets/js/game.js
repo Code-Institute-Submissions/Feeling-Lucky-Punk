@@ -31,13 +31,13 @@ fetch('assets/js/quotes.json')
     .catch((err) => {
         console.error(err);
     });
-  
+
 
 // Function for starting the game
 function startGame() {
     quoteCounter = 0;
     score = 0;
-    availableQuotes = [... quotes];
+    availableQuotes = [...quotes];
     // console.log(availableQuotes)
     getNewQuote();
 }
@@ -45,24 +45,24 @@ function startGame() {
 // Pulling new random quote from the JSON file
 function getNewQuote() {
 
-    if(availableQuotes.length == 0 || quoteCounter >= max_quotes){
+    if (availableQuotes.length == 0 || quoteCounter >= max_quotes) {
         localStorage.setItem('mostRecentScore', score);
         // Return to home page
         return window.location.assign("end.html");
     }
 
-     quoteCounter++;
-     quoteCounterText.innerText = quoteCounter + "/" + max_quotes;
+    quoteCounter++;
+    quoteCounterText.innerText = quoteCounter + "/" + max_quotes;
 
-     const quoteIndex = Math.floor(Math.random() * availableQuotes.length);
-     currentQuote = availableQuotes[quoteIndex];
-     quote.innerText = `${"“"}${currentQuote.Quote}${"“"}`;
-     
-     
-     movies.forEach((movie) => {
-     const number = movie.dataset['number'];
-     movie.innerText = currentQuote['movie' + number];
-     });
+    const quoteIndex = Math.floor(Math.random() * availableQuotes.length);
+    currentQuote = availableQuotes[quoteIndex];
+    quote.innerText = `${"“"}${currentQuote.Quote}${"“"}`;
+
+
+    movies.forEach((movie) => {
+        const number = movie.dataset['number'];
+        movie.innerText = currentQuote['movie' + number];
+    });
 
     availableQuotes.splice(quoteIndex, 1);
 
@@ -71,31 +71,33 @@ function getNewQuote() {
 
 // Getting a new question after answer is chosen
 movies.forEach((movie) => {
-  movie.addEventListener('click', e => {
-   if(!acceptingAnswers) return;
+    movie.addEventListener('click', e => {
+        if (!acceptingAnswers) return;
 
-   acceptingAnswers = false;
-   const selectedMovie = e.target;
-   const selectedAnswer = selectedMovie.dataset['number'];
+        acceptingAnswers = false;
+        const selectedMovie = e.target;
+        const selectedAnswer = selectedMovie.dataset['number'];
 
-    const classToApply =
-        selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
+        const classToApply =
+            selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
         // console.log(classToApply)
 
-        if(classToApply === 'correct'){
+        // 
+        if (classToApply === 'correct') {
             incrementScore(correct_bonus);
         }
 
         selectedMovie.parentElement.classList.add(classToApply);
 
-    setTimeout( () => {
-        selectedMovie.parentElement.classList.remove(classToApply);
-        getNewQuote();
-    }, 1000)
-  });
+        setTimeout(() => {
+            selectedMovie.parentElement.classList.remove(classToApply);
+            getNewQuote();
+        }, 1000)
+    });
 });
 
-function incrementScore(num){
-    score +=num;
+// incrementing the game score
+function incrementScore(num) {
+    score += num;
     scoreText.innerText = score;
-} 
+}

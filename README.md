@@ -11,10 +11,11 @@ As a user I would like:
 * To be both challenged and entertained.
 * To come across both familiar and not so familliar movie quotes.
 * To be reminded of some classic films and maybe learn of some unknown films.
-* To be kept engaged whie playing the game.
-* To be able to view my score as i play.
+* To be kept engaged while playing the game.
+* To be able to view my score as I play.
 * To be visibly notified if i get the answer right or wrong.
 * To contact the games creator to suggest my own movie quote ideas.
+* To be shown my score during and after the game.
 
 
 ## Strategy
@@ -26,11 +27,12 @@ The game is fairly staight forward allowing for a wide variation in users.
 
 ## Structure
 In order to really enjoy the the game easy navigation and flow of content was essential. Moving from page to page is done at the click of a button. There are only four main pages and none of them 
-are overpopulated with uneccessary content. The home page provides tou with two options of playing the game or visitig the quote suggestion form and the the end game page allows you to play again or return to the home page.. With limited options on both the landing page and the end page the user can easily start the game, return to the home page, play again or visit the movie suggestion form page.
+are overpopulated with uneccessary content. The home page provides you with two options of playing the game or visitig the quote suggestion form and the the end game page allows you to play again or return to the home page.
+With limited options the user can move through the web application with ease.
 The simplicitic nature of the game allows the user to focus on the main objective of the web application, having fun!
 
 ## Skeleton
-The theme of the game was aimed towards the style of  an old fashioned theatre. There is something inviting and nostalgig about the feel and colours associated with this theme. 
+The theme of the game was aimed towards the style of an old fashioned theatre. There is something inviting and nostalgic about the feel and colours associated with this theme. 
 In order to achieve this effect I used specific colours, backgrounds and fonts that fell inline with the theme. These will be discussed further in the design section.
 
 ## Design
@@ -92,7 +94,7 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 > CSS code was checked using CSS W3C CSS Validator.
 
 * [Online Beautifier](https://beautifier.io/)
-> Online Beautifier was used to beautify my HTML code.
+> Online Beautifier was used to beautify my HTML, CSS and JavaScript code.
 # Testing
 As the webpage was being built Chrome developer tools were used to ensure that the code was working smoothly. Each section was then tested again every time a new feature was added.
 
