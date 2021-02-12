@@ -1,9 +1,9 @@
 # Movie Quote Guessing Game
+![](assets/imgs/readme.md_hero_img.png)
 I am designing this web application as part of my second Milestone project for Code Institutes diploma in software development course.
-The application i am designing is a movie quote guessing game. As a fellow movie nerd I aim to provide a fun and interactive game that all movie lovers will enjoy.
+The application i am designing is a movie quote guessing game titled "Feeling Lucky Pumk" after the famous Clint Eastwood movie quote. As a fellow movie nerd I aim to provide a fun and interactive game that all movie lovers will enjoy.
 
 # UX
-
 ## User Stories
 As a user I would like:
 
@@ -23,7 +23,7 @@ As previously stated this movie quote guessing game is designed to be a fun and 
 The quotes vary in genre so any user can find some recogniseable quotes from classic films and amybe a few quotes they wouldnt be familliar with.
 
 ## Scope
-The game is fairly staight forward allowing for a wide variation in users. 
+The game is fairly staight forward allowing for a wide variation in users. Every feature added to the game meets the user need requirments and is essential to get the most enjoyment out of the game.
 
 ## Structure
 In order to really enjoy the the game easy navigation and flow of content was essential. Moving from page to page is done at the click of a button. There are only four main pages and none of them 
@@ -39,6 +39,7 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 **Wire Frames**
  The webpage was designed using Balsamiq to crate some basic wireframes(Link below) 
  
+ [Wireframes](wireframes.md)
 
 **Colours**
 * I used a blend of dark yeallow/gold(rgb(165, 165, 42)) and red(rgba(197, 23, 0, 0.89)) to coinside with the vintage theatre design that I was attempting to emulate.
@@ -106,18 +107,32 @@ Post-deployment the webpage was tested across a number of devices to ensure it r
 Post-deployment the webpage was opened and tested on three different search engines
 
 **Bugs**
-
+* The form page would automaticlly send an empty email everytime the page was opned or refreshed.
 
 * [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
->W3C Markup Validator was used to check the HTML code. Any bugs that came up were due to outdated styles in the iframe element. These were simply removed and then resolved by updating the CSS for the iframe element.
+>W3C Markup Validator was used to check the HTML code.
 
 * Viewport Testing
 > The webpage was opened on a number of different screen sizes to ensure it worked on all viewports. 
 
 ## Functionality Test
+Nm | Test | Action | Test result |
+-- | ---- | ------ | ----------- |
+#1 | Navigtion buttons | Click on each nav button to access different pages | Passed |
+#2 | Answer buttons(correct) | Click on correct answers to turn them green and move on | Passed |
+#3 | Answer buttons(wrong) | Click on correct answers to turn them red and move on | Passed |
+#4 | Random questions | Play through game to make sure there is a new random question for each round | Passed |
+#5 | Score board(game) | Play through game to make sure the score board is incremented for each correct answer | Passed |
+#6 | Score board(end) | Finish game and make sure the end score board displays the correct final score | Passed |
+#7 | Form | Enter details to form, click submit for page response to email adress | passed |
+#8 | Question counter | Play through game to make sure the the question counter is incremented bt one after each question | Passed |
 
 ## Browser Compatibility Test
-
+Nm | Action | Test result |
+-- | ------ | ----------- |
+#1 | Chrome | Passed |
+#2 | Firefox| Passed |
+#3 | Safari | Passed |
 
 # Deployment
 The site was developed using [Gitpod IDE](https://gitpod.io/), the code was then added and comitted to git and pushed to my Github repository.
