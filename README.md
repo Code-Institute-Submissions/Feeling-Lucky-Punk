@@ -96,8 +96,12 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 
 * [Online Beautifier](https://beautifier.io/)
 > Online Beautifier was used to beautify my HTML, CSS and JavaScript code.
+
+* [Email.js service](https://www.emailjs.com/docs/tutorial/overview/)
+> Email.js api service was used for the form to send quote suggestions to my email adress.
+
 # Testing
-As the webpage was being built Chrome developer tools were used to ensure that the code was working smoothly. Each section was then tested again every time a new feature was added.
+As the webpage was being built Chrome developer tools were used to ensure that the code was working smoothly. Each section was then tested again every time a new feature was added. This was also true for each JavaScript function that was added to the games functionality.
 
 Pre-deployment I checked that the webpage met all the user needs previously stated.
 

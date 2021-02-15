@@ -10,7 +10,7 @@ body {
     margin-right: auto;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(165, 165, 42);
+    color: rgb(216, 216, 14);
 }
 
 h2 {
@@ -24,8 +24,8 @@ h2 {
 
 .section-game {
     height: 100vh;
-    background: linear-gradient(rgba(255, 0, 0, 0.9),
-            rgba(255, 0, 0, 0.5)),
+    background: linear-gradient(rgba(255, 0, 0, 0.6),
+            rgba(255, 0, 0, 0.6)),
         url(../imgs/game_img3.jpg) no-repeat center center fixed;
     background-size: cover;
     border: 4px solid rgb(165, 165, 42);

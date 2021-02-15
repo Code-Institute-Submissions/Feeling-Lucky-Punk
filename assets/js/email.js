@@ -1,20 +1,20 @@
 // email.js service was used for this code.
 
-<script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('quote-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                
-                this.contact_number.value = Math.random() * 100000 | 0;
-               
-                emailjs.sendForm('service_iyowll8', 'Movie-Quote', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
-            })
-        };
-    </script>
-
+        function sendMail(contactForm) {
+    emailjs.send("service_iyowll8","Movie-Quote", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+        "movie": contactForm.movie.value,
+        "quote": contactForm.quote.value
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;
+    }
 console.log("hello friend")
