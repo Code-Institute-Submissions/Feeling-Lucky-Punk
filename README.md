@@ -120,16 +120,17 @@ Post-deployment the webpage was opened and tested on three different search engi
 > The webpage was opened on a number of different screen sizes to ensure it worked on all viewports. 
 
 ## Functionality Test
-Nm | Test | Action | Test result |
--- | ---- | ------ | ----------- |
-#1 | Navigtion buttons | Click on each nav button to access different pages | Passed |
-#2 | Answer buttons(correct) | Click on correct answers to turn them green and move on | Passed |
-#3 | Answer buttons(wrong) | Click on correct answers to turn them red and move on | Passed |
-#4 | Random questions | Play through game to make sure there is a new random question for each round | Passed |
-#5 | Score board(game) | Play through game to make sure the score board is incremented for each correct answer | Passed |
-#6 | Score board(end) | Finish game and make sure the end score board displays the correct final score | Passed |
-#7 | Form | Enter details to form, click submit for page response to email adress | passed |
-#8 | Question counter | Play through game to make sure the the question counter is incremented bt one after each question | Passed |
+Nm | Test | Action | Expected Outcome |Test result |
+-- | ---- | ------ | ---------------- |----------- |
+#1 | Gmae setup | Load up game from home page. | All questions, answers, score board and question counter are loaded. | Passed |
+#2 | Navigtion buttons | Click on each nav button. | Each nav button should direct me to a new page of the web application. | Passed |
+#3 | Answer buttons(correct) | Click on correct answers. | The answer should turn green and after a second a new question should be loaded. | Passed |
+#4 | Answer buttons(wrong) | Click on correct answers. | The answer should turn red and after a second a new question should be loaded. | Passed |
+#5 | Random questions | Play through game multiple times. | Every new game should produce a random order of the possible questions. | Passed |
+#6 | Score board(game) | Play through game. | After each correct answer the score board should increment by 10 points. | Passed |
+#7 | Score board(end) | Finish the game. | The end page score board should show the players final score. | Passed |
+#8 | Form | Enter details to form and click submit. | The form should send the form info to my chosen email. | failed |
+#9 | Question counter | Play through the game. | after each question the question counter should increment by one. | Passed |
 
 ## Browser Compatibility Test
 Nm | Action | Test result |
