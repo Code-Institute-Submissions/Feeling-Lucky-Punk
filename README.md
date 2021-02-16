@@ -16,14 +16,15 @@ As a user I would like:
 * To be visibly notified if i get the answer right or wrong.
 * To contact the games creator to suggest my own movie quote ideas.
 * To be shown my score during and after the game.
+* To know how many questionsare being asked and which question I am currently on.
 
 
 ## Strategy
 As previously stated this movie quote guessing game is designed to be a fun and interactive experience for all users. The target audiance is movie lovers and anyone interested in having a bit of fun.
-The quotes vary in genre so any user can find some recogniseable quotes from classic films and amybe a few quotes they wouldnt be familliar with.
+The quotes vary in genre so any user can find some recogniseable quotes from classic films and maybe a few quotes they wouldnt be familliar with.
 
 ## Scope
-The game is fairly staight forward allowing for a wide variation in users. Every feature added to the game meets the user need requirments and is essential to get the most enjoyment out of the game.
+The game is fairly straight forward allowing for a wide variation in users. Every feature added to the game meets the user need requirments and is essential to get the most enjoyment out of the game.
 
 ## Structure
 In order to really enjoy the the game easy navigation and flow of content was essential. Moving from page to page is done at the click of a button. There are only four main pages and none of them 
@@ -37,6 +38,7 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 
 ## Design
 **Wire Frames**
+
  The webpage was designed using Balsamiq to crate some basic wireframes(Link below) 
  
  [Wireframes](wireframes.md)
@@ -46,19 +48,19 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 
 * on the end page when you finish the game some of the text is in red and blue. This was chosen to match with the quote from the classic film "The Matrix" that is presented to you at the bottom of the end page.
 
-* Simple black and white colours were used through out te rest of the app so as to make all the content clear and readable for all uses.
+* Simple black and white colours were used through out the rest of the app so as to make all the content clear and readable for all uses.
 
 **Typography**
-* The font I chose for the all the headings of the web application was 'Lobster', cursive. I really liked this font as it made the headings really stand out and gave that old fashioned theatre feel that I was aiming for.
+* The font I chose for all the headings of the web application was 'Lobster', cursive. I really liked this font as it made the headings really stand out and gave that old fashioned theatre feel that I was aiming for.
 
 * For the quotes them selves I chose something a little different, 'Architects Daughter', cursive. I felt this gave a nice hand written effect and was a fun way to present the quotes.
 
-* The rest of the text I used 'Lato', sans-serif. This text was used mostly in paces where users needed to make a choice so I felt this text was clean and readable for all users.
+* The rest of the text I used 'Lato', sans-serif. This text was used mostly in places where users needed to make a choice so I felt this text was clean and readable for all users.
 
 **Backgrounds**
-* I used the same background for the home, end and from page. The background in use is an image of theatre with the curtains drawn. I felt this was a nice effect, as if the user was about to enter a show. The image was sourced from [Clipart Library](http://clipart-library.com/theatre-curtains.html);
+* I used the same background for the home, end and form page. The background in use is an image of a theatre with the curtains drawn. I felt this was a nice effect, as if the user was about to enter a show. The image was sourced from [Clipart Library](http://clipart-library.com/theatre-curtains.html);
 
-* The background for the main game is an image of an old movie projector [Stockvault](https://www.stockvault.net/free-photos/movies) with red clour shaded over it in CSS. I fel the image looked great and the red shading kept inline with the desired theme.
+* The background for the main game is an image of an old movie projector [Stockvault](https://www.stockvault.net/free-photos/movies) with red clour shaded over it in CSS. I felt the image looked great and the red shading kept inline with the desired theme.
 # Features
 ## Exsisting Features
 * Button links to navigate between all four pages of the web application.
@@ -66,7 +68,7 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 * Score board to keep track of what score the user is on.
 * Four possible answers for the user to choose from.
 * A score board on the end page for the users final score.
-* A form where the user can suggest movie quotes that the would like to see in the game.
+* A form where the user can suggest movie quotes that they would like to see in the game.
 
 ## Features Still to Be Implemented
 * A page listing all the movies mentioned in the game with some info on them and links to their IMBD page.
@@ -100,24 +102,15 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 * [Email.js service](https://www.emailjs.com/docs/tutorial/overview/)
 > Email.js api service was used for the form to send quote suggestions to my email adress.
 
-# Testing
-As the webpage was being built Chrome developer tools were used to ensure that the code was working smoothly. Each section was then tested again every time a new feature was added. This was also true for each JavaScript function that was added to the games functionality.
-
-Pre-deployment I checked that the webpage met all the user needs previously stated.
-
-The webpage was tested on multiple viewports each time a section was added or updated to make sure everything was working correctly.
-Post-deployment the webpage was tested across a number of devices to ensure it remained responsive. Some of the devices that were tested: Iphone 5, Iphone 11, Samsung A5, Samsung S8, Ipad pro and a Toshiba laptop.
-
-Post-deployment the webpage was opened and tested on three different search engines
-
-**Bugs**
-* The form page would automaticlly send an empty email everytime the page was opned or refreshed.
-
 * [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
 >W3C Markup Validator was used to check the HTML code.
 
-* Viewport Testing
-> The webpage was opened on a number of different screen sizes to ensure it worked on all viewports. 
+* [Google Fonts](https://fonts.google.com/)
+>All fonts came from Google Fonts.
+
+
+
+# Testing
 
 ## Functionality Test
 Nm | Test | Action | Expected Outcome |Test result |
@@ -133,11 +126,28 @@ Nm | Test | Action | Expected Outcome |Test result |
 #9 | Question counter | Play through the game. | after each question the question counter should increment by one. | Passed |
 
 ## Browser Compatibility Test
-Nm | Action | Test result |
--- | ------ | ----------- |
-#1 | Chrome | Passed |
-#2 | Firefox| Passed |
-#3 | Safari | Passed |
+Nm | Browser | Action | Test result |
+-- | ------- | ------ | ----------- |
+#1 | Chrome | Open app in browser. | Passed |
+#2 | Firefox | Open app in browser. | Passed |
+#3 | Safari | Open app in browser. | Passed |
+
+As the webpage was being built Chrome developer tools were used to ensure that the code was working smoothly. Each section was then tested again every time a new feature was added. This was also true for each JavaScript function that was added to the games functionality.
+
+Pre-deployment I checked that the webpage met all the user needs previously stated.
+
+The webpage was tested on multiple viewports each time a section was added or updated to make sure everything was working correctly.
+Post-deployment the webpage was tested across a number of devices to ensure it remained responsive. Some of the devices that were tested: Iphone 5, Iphone 11, Samsung A5, Samsung S8, Ipad pro, Samsung Galaxy Tab s7 ,Toshiba laptopand a Huawei 15" laptop.
+
+Post-deployment the webpage was opened and tested on three different search engines
+
+## Bugs
+
+**Resolved**
+
+
+**Unresolved**
+* The form page would automaticlly send an empty email everytime the page was opned or refreshed.
 
 # Deployment
 The site was developed using [Gitpod IDE](https://gitpod.io/), the code was then added and comitted to git and pushed to my Github repository.
@@ -169,7 +179,7 @@ The site was deployed to GitHub pages. See below for instructions.
 # Credits
 
 ## Code
-* Build a Quiz App by James Quick on Youtube was a major asset to me in building the app. I followed along and learned as i built the game using his guidance.
+* Build a Quiz App by James Quick on Youtube was a major asset to me in building the app. I followed along and learned as i built the game using his guidance then I implemented what I learned to my project.
 * The interactive structure and layout of the code  https://getbootstrap.com/docs/4.5/layout/overview/
 * Resources such as W3schools and Stackoverflow were used to come up with solutions to various problems I encountered
 * Some ideas for the code (Such as the form page) were taken from mini projects done through out the course. 
