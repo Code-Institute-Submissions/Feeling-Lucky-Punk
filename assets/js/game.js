@@ -51,6 +51,7 @@ function getNewQuote() {
         return window.location.assign("end.html");
     }
 
+    // Increment quoteCounter by one
     quoteCounter++;
     quoteCounterText.innerText = quoteCounter + "/" + maxQuestions;
 
@@ -64,6 +65,7 @@ function getNewQuote() {
         movie.innerText = currentQuote['movie' + number];
     });
 
+    // Remove used questions
     availableQuotes.splice(quoteIndex, 1);
 
     acceptingAnswers = true;
@@ -78,17 +80,19 @@ movies.forEach((movie) => {
         const selectedMovie = e.target;
         const selectedAnswer = selectedMovie.dataset['number'];
 
+        // CLass(colour) applied for right and wrong answers
         const classToApply =
             selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
         // console.log(classToApply)
 
-        // 
+        // With correct answer increment score by correctBonus
         if (classToApply === 'correct') {
             incrementScore(correctBonus);
         }
 
         selectedMovie.parentElement.classList.add(classToApply);
 
+        // Removes applied style and gives time before moving to next question
         setTimeout(() => {
             selectedMovie.parentElement.classList.remove(classToApply);
             getNewQuote();

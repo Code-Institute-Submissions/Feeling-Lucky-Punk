@@ -132,7 +132,7 @@ Nm | Browser | Action | Test result |
 #2 | Firefox | Open app in browser. | Passed |
 #3 | Safari | Open app in browser. | Passed |
 
-As the webpage was being built Chrome developer tools were used to ensure that the code was working smoothly. Each section was then tested again every time a new feature was added. This was also true for each JavaScript function that was added to the games functionality.
+As the webpage was being built Chrome developer tools were used to ensure that the code was working smoothly. Each section was then tested again every time a new feature was added. This was also true for each JavaScript function that was added to the games functionality using console.log().
 
 Pre-deployment I checked that the webpage met all the user needs previously stated.
 
