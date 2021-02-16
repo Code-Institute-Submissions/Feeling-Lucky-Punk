@@ -16,8 +16,8 @@ let quoteCounter = 0;
 let quotes = [];
 
 // Setting up score and amount of questions
-const correct_bonus = 10;
-const max_quotes = 10;
+const correctBonus = 10; 
+const maxQuestions = 10;
 
 // Pulling questions from local JSON file
 fetch('assets/js/quotes.json')
@@ -45,14 +45,14 @@ function startGame() {
 // Pulling new random quote from the JSON file
 function getNewQuote() {
 
-    if (availableQuotes.length == 0 || quoteCounter >= max_quotes) {
+    if (availableQuotes.length == 0 || quoteCounter >= maxQuestions) {
         localStorage.setItem('mostRecentScore', score);
         // Return to home page
         return window.location.assign("end.html");
     }
 
     quoteCounter++;
-    quoteCounterText.innerText = quoteCounter + "/" + max_quotes;
+    quoteCounterText.innerText = quoteCounter + "/" + maxQuestions;
 
     const quoteIndex = Math.floor(Math.random() * availableQuotes.length);
     currentQuote = availableQuotes[quoteIndex];
@@ -84,7 +84,7 @@ movies.forEach((movie) => {
 
         // 
         if (classToApply === 'correct') {
-            incrementScore(correct_bonus);
+            incrementScore(correctBonus);
         }
 
         selectedMovie.parentElement.classList.add(classToApply);
