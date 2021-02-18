@@ -1,7 +1,7 @@
 # Movie Quote Guessing Game
 ![](assets/imgs/readme.md_hero_img.png)
 I am designing this web application as part of my second Milestone project for Code Institutes diploma in software development course.
-The application i am designing is a movie quote guessing game titled "Feeling Lucky Pumk" after the famous Clint Eastwood movie quote. As a fellow movie nerd I aim to provide a fun and interactive game that all movie lovers will enjoy.
+The application I am designing is a movie quote guessing game titled "Feeling Lucky Punk" after the famous Clint Eastwood movie quote. As a fellow movie nerd I aim to provide a fun and interactive game that all movie lovers will enjoy.
 
 # UX
 ## User Stories
@@ -9,6 +9,7 @@ As a user I would like:
 
 * To play a fun interactive guessing game.
 * To be both challenged and entertained.
+* Easy navigation through out the game.
 * To come across both familiar and not so familliar movie quotes.
 * To be reminded of some classic films and maybe learn of some unknown films.
 * To be kept engaged while playing the game.
@@ -24,7 +25,7 @@ As previously stated this movie quote guessing game is designed to be a fun and 
 The quotes vary in genre so any user can find some recogniseable quotes from classic films and maybe a few quotes they wouldnt be familliar with.
 
 ## Scope
-The game is fairly straight forward allowing for a wide variation in users. Every feature added to the game meets the user need requirments and is essential to get the most enjoyment out of the game.
+The game is fairly straight forward allowing for a wide variation of users. Every feature added to the game meets the user need requirments and is essential to get the most enjoyment out of the game.
 
 ## Structure
 In order to really enjoy the the game easy navigation and flow of content was essential. Moving from page to page is done at the click of a button. There are only four main pages and none of them 
@@ -81,7 +82,7 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 * [JavaScript](https://javascript.info/)
 
 ## Frameworks and Programs
-* [Bootstrap 4.5](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [Bootstrap 5.0](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 > Used to get the overall layout of the Webpage.
 
 * [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiA48j9BRC-ARIsAMQu3WSc14tIkeDZUlWDIVOa-Acbyn1s5XvsJJ6CnWplwD7_WPcgk-C4cTgaAsaNEALw_wcB)
@@ -133,13 +134,12 @@ Nm | Browser | Action | Test result |
 #3 | Safari | Open app in browser. | Passed |
 
 As the webpage was being built Chrome developer tools were used to ensure that the code was working smoothly. Each section was then tested again every time a new feature was added. This was also true for each JavaScript function that was added to the games functionality using console.log().
+Lighthouse in developer tools was also used to check the applications performance.
 
 Pre-deployment I checked that the webpage met all the user needs previously stated.
 
 The webpage was tested on multiple viewports each time a section was added or updated to make sure everything was working correctly.
 Post-deployment the webpage was tested across a number of devices to ensure it remained responsive. Some of the devices that were tested: Iphone 5, Iphone 11, Samsung A5, Samsung S8, Ipad pro, Samsung Galaxy Tab s7 ,Toshiba laptopand a Huawei 15" laptop.
-
-Post-deployment the webpage was opened and tested on three different search engines
 
 ## Bugs
 
