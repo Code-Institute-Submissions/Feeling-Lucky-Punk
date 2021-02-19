@@ -7,7 +7,6 @@ const quoteCounterText = document.getElementById('quoteCounter');
 const scoreText = document.getElementById('score');
 
 // Set up variables for game
-
 let currentQuote = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -31,7 +30,6 @@ fetch('assets/js/quotes.json')
     .catch((err) => {
         console.error(err);
     });
-
 
 // Function for starting the game
 function startGame() {
@@ -59,7 +57,6 @@ function getNewQuote() {
     currentQuote = availableQuotes[quoteIndex];
     quote.innerText = `${"“"}${currentQuote.Quote}${"“"}`;
 
-
     movies.forEach((movie) => {
         const number = movie.dataset['number'];
         movie.innerText = currentQuote['movie' + number];
@@ -85,9 +82,23 @@ movies.forEach((movie) => {
             selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
         // console.log(classToApply)
 
-        // With correct answer increment score by correctBonus
         if (classToApply === 'correct') {
             incrementScore(correctBonus);
+
+            // Alert box from SweetAlert.com
+            swal({
+                title: "Correct!",
+                text: "“You chose wisely“",
+                icon: "success",
+                button: "Next",
+            });
+        } else{
+            swal({
+                title: "Wrong!",
+                text: "“You chose poorly“",
+                icon: "error",
+                button: "Next",
+});
         }
 
         selectedMovie.parentElement.classList.add(classToApply);
@@ -96,7 +107,7 @@ movies.forEach((movie) => {
         setTimeout(() => {
             selectedMovie.parentElement.classList.remove(classToApply);
             getNewQuote();
-        }, 1000)
+        }, 2000)
     });
 });
 
