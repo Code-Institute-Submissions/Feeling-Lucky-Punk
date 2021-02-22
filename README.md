@@ -70,6 +70,7 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 * Four possible answers for the user to choose from.
 * A score board on the end page for the users final score.
 * A form where the user can suggest movie quotes that they would like to see in the game.
+* An alert box informing you of whether you got an answer right or wrong.
 
 ## Features Still to Be Implemented
 * A page listing all the movies mentioned in the game with some info on them and links to their IMBD page.
@@ -109,6 +110,9 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 * [Google Fonts](https://fonts.google.com/)
 >All fonts came from Google Fonts.
 
+* [SweetAlerts](https://sweetalert.js.org/docs/)
+>Used to design alert box.
+
 
 
 # Testing
@@ -124,7 +128,9 @@ Nm | Test | Action | Expected Outcome |Test result |
 #6 | Score board(game) | Play through game. | After each correct answer the score board should increment by 10 points. | Passed |
 #7 | Score board(end) | Finish the game. | The end page score board should show the players final score. | Passed |
 #8 | Form | Enter details to form and click submit. | The form should send the form info to my chosen email. | failed |
-#9 | Question counter | Play through the game. | after each question the question counter should increment by one. | Passed |
+#9 | Question counter | Play through the game. | After each question the question counter should increment by one. | Passed |
+#10 | Alert box(correct) | Click on correct answer. | After each correct answer an alert box should pop up saying "Correct" | Passed |
+#11 | Alert box(wrong) | Click on correct answer. | After each wrong answer an alert box should pop up saying "Wrong" | Passed |
 
 ## Browser Compatibility Test
 Nm | Browser | Action | Test result |
