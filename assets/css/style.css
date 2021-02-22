@@ -58,8 +58,19 @@ a:hover {
     padding-left: 1rem;
 }
 
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
 .nav-tabs .nav-link {
     border: 2px solid rgb(165, 165, 42);
+}
+
+.dropdown-item {
+    font-size: 1rem;
+    color: rgb(165, 165, 42);
+    margin-right: 0;
 }
 
 /* ........................................ Positioning */
@@ -179,13 +190,6 @@ a:hover {
 
 /* ........................................ Media Queries */
 
-
-/* @media only screen and (min-width: 400px) {
-    .home-spacing {
-        padding-top: 1rem;
-    }
-} */
-
 @media only screen and (min-height: 1300px) {
     .home-spacing {
         padding-top: 16rem;
@@ -194,7 +198,7 @@ a:hover {
 
 @media only screen and (min-width: 370px) {
     .end-spacing {
-        padding-top: 4rem;
+        padding-top: 1rem;
     }
 }
 

@@ -20,6 +20,18 @@ h2 {
     font-family: 'Architects Daughter', cursive;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(165, 165, 42);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
 /* ........................................ Game Structure*/
 
 .section-game {
@@ -73,6 +85,29 @@ p {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
+}
+
+/* ........................................ Nav */
+
+.nav-tabs {
+    border-bottom: none;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.nav-tabs .nav-link {
+    border: 2px solid rgb(165, 165, 42);
+}
+
+.dropdown-item {
+    font-size: 1rem;
+    color: rgb(165, 165, 42);
+    margin-right: 0;
 }
 
 /* ........................................ Button Answer Styling*/
@@ -160,4 +195,14 @@ p {
     .movie-container {
         width: 90%;
     }
+
+    .nav-tabs .nav-link {
+    margin-bottom: 0.7rem;
 }
+
+    .nav-link {
+    font-size: 0.9rem;
+}
+
+}
+
