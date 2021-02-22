@@ -50,6 +50,18 @@ a:hover {
     font-size: 1.5rem;
 }
 
+/* ........................................ Nav */
+
+.nav-tabs {
+    border-bottom: none;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.nav-tabs .nav-link {
+    border: 2px solid rgb(165, 165, 42);
+}
+
 /* ........................................ Positioning */
 
 .bg-opening {
@@ -168,11 +180,11 @@ a:hover {
 /* ........................................ Media Queries */
 
 
-@media only screen and (min-width: 400px) {
+/* @media only screen and (min-width: 400px) {
     .home-spacing {
-        padding-top: 4rem;
+        padding-top: 1rem;
     }
-}
+} */
 
 @media only screen and (min-height: 1300px) {
     .home-spacing {

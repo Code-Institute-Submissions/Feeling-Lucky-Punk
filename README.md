@@ -150,7 +150,7 @@ Post-deployment the webpage was tested across a number of devices to ensure it r
 ## Bugs
 
 **Resolved**
-
+* Questions wouldn't load to the game. I found this was simply due the to incorrect capitalisation of the quotes variable.
 
 **Unresolved**
 * The form page would automaticlly send an empty email everytime the page was opned or refreshed.
