@@ -2,6 +2,7 @@
 ![](assets/imgs/readme.md_hero_img.png)
 I am designing this web application as part of my second Milestone project for Code Institutes diploma in software development course.
 The application I am designing is a movie quote guessing game titled "Feeling Lucky Punk" after the famous Clint Eastwood movie quote. As a fellow movie nerd I aim to provide a fun and interactive game that all movie lovers will enjoy.
+Here is a link to the deployed web application [FeelingLuckyPunk?](https://liamgaff.github.io/Feeling-Lucky-Punk/index.html)
 
 # UX
 ## User Stories
@@ -30,7 +31,7 @@ The game is fairly straight forward allowing for a wide variation of users. Ever
 ## Structure
 In order to really enjoy the the game easy navigation and flow of content was essential. Moving from page to page is done at the click of a button. There are only four main pages and none of them 
 are overpopulated with uneccessary content. The home page provides you with two options of playing the game or visitig the quote suggestion form and the the end game page allows you to play again or return to the home page.
-With limited options the user can move through the web application with ease.
+There is also a small navigation menu in the top left corner of the home, game and end pages for added ease of navigation. With limited options the user can move through the web application with ease.
 The simplicitic nature of the game allows the user to focus on the main objective of the web application, having fun!
 
 ## Skeleton
@@ -71,9 +72,12 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 * A score board on the end page for the users final score.
 * A form where the user can suggest movie quotes that they would like to see in the game.
 * An alert box informing you of whether you got an answer right or wrong.
+* Navigation menu in the top left corner.
 
 ## Features Still to Be Implemented
 * A page listing all the movies mentioned in the game with some info on them and links to their IMBD page.
+
+* Continuously add more questions to the game.
 
 
 # Technologies Used
@@ -131,6 +135,8 @@ Nm | Test | Action | Expected Outcome |Test result |
 #9 | Question counter | Play through the game. | After each question the question counter should increment by one. | Passed |
 #10 | Alert box(correct) | Click on correct answer. | After each correct answer an alert box should pop up saying "Correct" | Passed |
 #11 | Alert box(wrong) | Click on correct answer. | After each wrong answer an alert box should pop up saying "Wrong" | Passed |
+#12 | Navigation menu | Click on navigation links | User is directed to new page when links are clicked. | Passed |
+
 
 ## Browser Compatibility Test
 Nm | Browser | Action | Test result |
