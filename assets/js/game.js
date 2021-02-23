@@ -1,4 +1,4 @@
-// Code came from Build a Quiz App by James Quick on Youtube tutorial
+// Code idea came from Build a Quiz App by James Quick on Youtube tutorial
 
 // Setting up constants for questions and answers
 const quote = document.getElementById('quote');
@@ -39,7 +39,6 @@ function startGame() {
     quoteCounter = 0;
     score = 0;
     availableQuotes = [...quotes];
-    // console.log(availableQuotes)
     getNewQuote();
 }
 
@@ -48,11 +47,10 @@ function startGame() {
 */
 function getNewQuote() {
 
-
     if (availableQuotes.length == 0 || quoteCounter >= maxQuestions) {
         localStorage.setItem('mostRecentScore', score);
         // Return to end page
-        return window.location.assign("end.html");
+        return window.location.assign('end.html');
     }
 
     // Increment quoteCounter by one
@@ -86,7 +84,6 @@ movies.forEach((movie) => {
         // CLass(colour) applied for right and wrong answers
         const classToApply =
             selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
-        // console.log(classToApply)
 
         if (classToApply === 'correct') {
             incrementScore(correctBonus);

@@ -9,10 +9,10 @@
         })
         .then(
             function(response) {
-                alert("SUCCESS", response);
+                alert('SUCCESS', response);
             },
             function(error) {
-                alert("FAILED", error);
+                alert('FAILED', error);
             }
         );
     return false;
