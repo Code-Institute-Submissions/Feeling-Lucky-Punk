@@ -31,7 +31,10 @@ fetch('assets/js/quotes.json')
         console.error(err);
     });
 
-// Function for starting the game
+/**Function for starting the game 
+ * available quotes accesses the data from the JSON file
+ * getNewQuote calls the function for getting the quotes up
+*/
 function startGame() {
     quoteCounter = 0;
     score = 0;
@@ -40,12 +43,15 @@ function startGame() {
     getNewQuote();
 }
 
-// Pulling new random quote from the JSON file
+/**  Pulling new quote from the JSON file 
+ * quoteIndex randomly pulls a quote from the JSON file
+*/
 function getNewQuote() {
+
 
     if (availableQuotes.length == 0 || quoteCounter >= maxQuestions) {
         localStorage.setItem('mostRecentScore', score);
-        // Return to home page
+        // Return to end page
         return window.location.assign("end.html");
     }
 
