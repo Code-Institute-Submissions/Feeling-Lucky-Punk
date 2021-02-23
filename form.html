@@ -12,11 +12,11 @@
     <script type="text/javascript">
         (function() {
             emailjs.init("user_pdGoaKmyd7lfRUQGiiU8k");
-            emailjs.send("service_iyowll8", "Movie-Quote", {
+            emailjs.send("service_6abu8pu","movie-quote", {
                 name: "Liam",
                 notes: "Movie quote..."
             });
-        });
+        })();
     </script>
 </head>
 
@@ -29,7 +29,7 @@
         </div>
         <div class="row justify-content-center no-gutters">
             <div class="col-12 col-sm-8 col-md-6">
-                <form id="quote-form" onsubmit="return sendMail(this);">
+                <form onsubmit="return sendMail(this);">
                     <label for="name" class="form-text">Full Name:</label>
                     <input id="name" name="name" type="text" placeholder="John Doe" class="suggestion-text-input" required>
                     <label for="emailadress" class="form-text">Email:</label>

@@ -1,7 +1,7 @@
 // email.js service was used for this code.
 
  function sendMail(contactForm) {
-    emailjs.send("service_iyowll8", "Movie-Quote", {
+    emailjs.send("service_6abu8pu","movie-quote", {
             "from_name": contactForm.name.value,
             "from_email": contactForm.emailaddress.value,
             "movie": contactForm.movie.value,
@@ -9,10 +9,10 @@
         })
         .then(
             function(response) {
-                console.log("SUCCESS", response);
+                alert("SUCCESS", response);
             },
             function(error) {
-                console.log("FAILED", error);
+                alert("FAILED", error);
             }
         );
     return false;
