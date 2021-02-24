@@ -18,11 +18,11 @@ As a user I would like:
 * To be visibly notified if i get the answer right or wrong.
 * To contact the games creator to suggest my own movie quote ideas.
 * To be shown my score during and after the game.
-* To know how many questionsare being asked and which question I am currently on.
+* To know how many questions are being asked and which question I am currently on.
 
 
 ## Strategy
-As previously stated this movie quote guessing game is designed to be a fun and interactive experience for all users. The target audiance is movie lovers and anyone interested in having a bit of fun.
+As previously stated this movie quote guessing game is designed to be a fun and interactive experience for all users. The target audiance are movie lovers and anyone interested in having a bit of fun.
 The quotes vary in genre so any user can find some recogniseable quotes from classic films and maybe a few quotes they wouldnt be familliar with.
 
 ## Scope
@@ -30,9 +30,9 @@ The game is fairly straight forward allowing for a wide variation of users. Ever
 
 ## Structure
 In order to really enjoy the the game easy navigation and flow of content was essential. Moving from page to page is done at the click of a button. There are only four main pages and none of them 
-are overpopulated with uneccessary content. The home page provides you with two options of playing the game or visitig the quote suggestion form and the the end game page allows you to play again or return to the home page.
+are overpopulated with uneccessary content. The home page provides you with two options of playing the game or visitig the quote suggestion form and the end game page allows you to play again or return to the home page.
 There is also a small navigation menu in the top left corner of the home, game and end pages for added ease of navigation. With limited options the user can move through the web application with ease.
-The simplicitic nature of the game allows the user to focus on the main objective of the web application, having fun!
+The simplisitic nature of the game allows the user to focus on the main objective of the web application, having fun!
 
 ## Skeleton
 The theme of the game was aimed towards the style of an old fashioned theatre. There is something inviting and nostalgic about the feel and colours associated with this theme. 
@@ -50,7 +50,7 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 
 * on the end page when you finish the game some of the text is in red and blue. This was chosen to match with the quote from the classic film "The Matrix" that is presented to you at the bottom of the end page.
 
-* Simple black and white colours were used through out the rest of the app so as to make all the content clear and readable for all uses.
+* Simple black and white colours were used through out the rest of the app so as to make all the content clear and readable for all users.
 
 **Typography**
 * The font I chose for all the headings of the web application was 'Lobster', cursive. I really liked this font as it made the headings really stand out and gave that old fashioned theatre feel that I was aiming for.
@@ -62,7 +62,7 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 **Backgrounds**
 * I used the same background for the home, end and form page. The background in use is an image of a theatre with the curtains drawn. I felt this was a nice effect, as if the user was about to enter a show. The image was sourced from [Clipart Library](http://clipart-library.com/theatre-curtains.html);
 
-* The background for the main game is an image of an old movie projector [Stockvault](https://www.stockvault.net/free-photos/movies) with red clour shaded over it in CSS. I felt the image looked great and the red shading kept inline with the desired theme.
+* The background for the main game is an image of an old movie projector [Stockvault](https://www.stockvault.net/free-photos/movies) with red colour shaded over it in CSS. I felt the image looked great and the red shading kept inline with the desired theme.
 # Features
 ## Exsisting Features
 * Button links to navigate between all four pages of the web application.
@@ -75,7 +75,7 @@ In order to achieve this effect I used specific colours, backgrounds and fonts t
 * Navigation menu in the top left corner.
 
 ## Features Still to Be Implemented
-* A page listing all the movies mentioned in the game with some info on them and links to their IMBD page.
+* A page listing all the movies mentioned in the game with information on them and links to their IMBD page.
 
 * Continuously add more questions to the game.
 
@@ -162,7 +162,7 @@ Post-deployment the webpage was tested across a number of devices to ensure it r
 * The form page would automaticlly send an empty email everytime the page was opned or refreshed.
 
 # Deployment
-The site was developed using [Gitpod IDE](https://gitpod.io/), the code was then added and comitted to git and pushed to my Github repository.
+The site was developed using [Gitpod IDE](https://gitpod.io/), the code was then added and committed to git and pushed to my Github repository.
 
 The site was deployed to GitHub pages. See below for instructions.
 
@@ -178,13 +178,13 @@ The site was deployed to GitHub pages. See below for instructions.
 * Create a Gitpod account and install Gitpod Browser extension for chrome.
 * Log into your gitpod account.
 * Go to [Github repository](https://github.com/LiamGaff/Feeling-Lucky-Punk) and click on the green "Gitpod" button.
-* This will open a new Gitpod workspace created from the code in the github repoitory where you can work.
+* This will open a new Gitpod workspace created from the code in the github repository where you can work.
 
 ## Local IDE
 * Go to my Github repository [here](https://github.com/LiamGaff/Feeling-Lucky-Punk).
 * Under the repository name click on "clone or download"
 * In the clone with HTTPs section copy the clone URL for the repository.
-* In your local IDE open the terminal and change you directory to where you want the clone to be made.
+* In your local IDE open the terminal and change your directory to where you want the clone to be made.
 * In the terminal type _git clone_ and then paste the repoitory URL.
 * Press enter and a clone will be created.
 
