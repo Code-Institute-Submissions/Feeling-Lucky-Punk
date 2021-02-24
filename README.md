@@ -177,11 +177,11 @@ The site was deployed to GitHub pages. See below for instructions.
 ## With Gitpod
 * Create a Gitpod account and install Gitpod Browser extension for chrome.
 * Log into your gitpod account.
-* Go to [Github repository](https://github.com/LiamGaff/Liam-Gaffney-Actor) and click on the green "Gitpod" button.
+* Go to [Github repository](https://github.com/LiamGaff/Feeling-Lucky-Punk) and click on the green "Gitpod" button.
 * This will open a new Gitpod workspace created from the code in the github repoitory where you can work.
 
 ## Local IDE
-* Go to my Github repository [here](https://github.com/LiamGaff/Liam-Gaffney-Actor).
+* Go to my Github repository [here](https://github.com/LiamGaff/Feeling-Lucky-Punk).
 * Under the repository name click on "clone or download"
 * In the clone with HTTPs section copy the clone URL for the repository.
 * In your local IDE open the terminal and change you directory to where you want the clone to be made.
